@@ -33,7 +33,7 @@ namespace Pascu_Bianca_Lab2
 
         private void frmMain_Loaded(object sender, RoutedEventArgs e)
         {
-            DoughnutMachine myDoughnutMachine = new DoughnutMachine(); //REZOLVAT Tema de laborator – instantiem un obiect din clasa DougnutMachine
+            DoughnutMachine myDoughnutMachine = new DoughnutMachine(); //Tema de laborator – instantiem un obiect din clasa DougnutMachine
             myDoughnutMachine.DoughnutComplete += new
             DoughnutMachine.DoughnutCompleteDelegate(DoughnutCompleteHandler);
         }
